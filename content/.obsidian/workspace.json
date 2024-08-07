@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "fa0e8a73a535a335",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f47d2751552ffda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94f74ba00c290b79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome to FAAVIATOR Design System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ec7173b71c4a49b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Button.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15ec3ab8c20f5d38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Icons.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "643bea183e4c3fff",
+    "type": "split",
+    "children": [
+      {
+        "id": "08efdd65ac0cfe62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01b549fa5e29aeb7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6b74c135605b1536",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9e19f98394b636b8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6e885c449aa083b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b7840d6346934c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "844509b33f8911af",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Icons.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "651e6e52a923bbc2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Icons.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "830b3189e0aa4ace",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b39f73b4f65bcaea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Icons.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "15ec3ab8c20f5d38",
+  "lastOpenFiles": [
+    "Button.md",
+    "img/Screenshot 2024-08-07 at 9.57.41 AM 1.png",
+    "img",
+    "Screenshot 2024-08-07 at 9.57.41 AM.png",
+    "Icons.md",
+    "Welcome to FAAVIATOR Design System.md"
+  ]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>🪴 Quartz 4.0</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on 🪴 Quartz 4.0</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description>This is a test.</description>
+    <pubDate>Wed, 07 Aug 2024 19:51:12 GMT</pubDate>
+  </item><item>
+    <title>Icons</title>
+    <link>https://quartz.jzhao.xyz/Icons</link>
+    <guid>https://quartz.jzhao.xyz/Icons</guid>
+    <description>The icons that Faaviator uses are from an open-source and versatile icon pack called Iconoir Use CustomIconView(.iconoir(.icon), size: size, color: .color) CustomIconView(.system(.icon), ...</description>
+    <pubDate>Wed, 07 Aug 2024 15:07:12 GMT</pubDate>
+  </item><item>
+    <title>Button</title>
+    <link>https://quartz.jzhao.xyz/Button</link>
+    <guid>https://quartz.jzhao.xyz/Button</guid>
+    <description>Interactive backbone element of any application. Used for navigation, actions, and confirmations. SwiftUI .</description>
+    <pubDate>Wed, 07 Aug 2024 13:01:17 GMT</pubDate>
+  </item><item>
+    <title>Welcome to FAAVIATOR Design System</title>
+    <link>https://quartz.jzhao.xyz/Welcome-to-FAAVIATOR-Design-System</link>
+    <guid>https://quartz.jzhao.xyz/Welcome-to-FAAVIATOR-Design-System</guid>
+    <description>This is where all components, design conventions, and assets are documented. For the first version of this doc, I want to document out purely the SwiftUI components/styles Table of Contents.</description>
+    <pubDate>Tue, 06 Aug 2024 20:14:08 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
