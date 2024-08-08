@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "sInter",
+        header: "Space",
         body: "Inter",
         code: "Roboto Mono",
       },
@@ -36,9 +36,9 @@ const config: QuartzConfig = {
           darkgray: "#595959",
           dark: "#2b2b2b",
           secondary: "#006EF1",
-          tertiary: "#f6a328",
+          tertiary: "#62A8FC",
           highlight: "#e0f0ff",
-          textHighlight: "#ff5d5d",
+          textHighlight: "#15253D",
         },
         darkMode: {
           light: "#1c1c1c",
