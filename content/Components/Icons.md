@@ -42,7 +42,7 @@ First we need to install the Iconoir Swift Package to the project.
 ![[Screenshot 2024-08-07 at 9.57.41 AM 1.png]]
 
 #### Our custom enum and view
-``` swift title="Swift"
+``` swift title="Icons+Iconoir.swift"
 import Foundation
 import SwiftUI
 import Iconoir
