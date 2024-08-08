@@ -1,16 +1,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://quartz.jzhao.xyz/Buttons/ActionButton</loc>
+    <loc>https://quartz.jzhao.xyz/Components/Buttons/ActionButton</loc>
     <lastmod>2024-08-07T22:22:56.604Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Buttons/Button</loc>
+    <loc>https://quartz.jzhao.xyz/Components/Buttons/Button</loc>
     <lastmod>2024-08-07T20:27:59.487Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Icons</loc>
+    <loc>https://quartz.jzhao.xyz/Components/Icons</loc>
     <lastmod>2024-08-07T20:27:59.488Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Index</loc>
+    <loc>https://quartz.jzhao.xyz/Foundations/Color</loc>
+    <lastmod>2024-08-08T10:36:23.969Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2024-08-07T20:27:59.492Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Welcome-to-FAAVIATOR-Design-System</loc>
-    <lastmod>2024-08-07T20:27:59.488Z</lastmod>
   </url></urlset>

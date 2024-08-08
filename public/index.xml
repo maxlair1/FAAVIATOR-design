@@ -6,33 +6,33 @@
       <description>Last 10 notes on FAAVIATOR Design</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Color</title>
+    <link>https://quartz.jzhao.xyz/Foundations/Color</link>
+    <guid>https://quartz.jzhao.xyz/Foundations/Color</guid>
+    <description>Our colors represent first-responders, public safety, and aviation. One of the most visually expressive parts of a brand identity, and particularly a user interface.</description>
+    <pubDate>Thu, 08 Aug 2024 10:36:23 GMT</pubDate>
+  </item><item>
     <title>ActionButton</title>
-    <link>https://quartz.jzhao.xyz/Buttons/ActionButton</link>
-    <guid>https://quartz.jzhao.xyz/Buttons/ActionButton</guid>
+    <link>https://quartz.jzhao.xyz/Components/Buttons/ActionButton</link>
+    <guid>https://quartz.jzhao.xyz/Components/Buttons/ActionButton</guid>
     <description>Action Button.</description>
     <pubDate>Wed, 07 Aug 2024 22:22:56 GMT</pubDate>
   </item><item>
-    <title>Index</title>
-    <link>https://quartz.jzhao.xyz/Index</link>
-    <guid>https://quartz.jzhao.xyz/Index</guid>
-    <description>This is a test haha!.</description>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description>This is the index.md. Hello world!.</description>
     <pubDate>Wed, 07 Aug 2024 20:27:59 GMT</pubDate>
   </item><item>
     <title>Icons</title>
-    <link>https://quartz.jzhao.xyz/Icons</link>
-    <guid>https://quartz.jzhao.xyz/Icons</guid>
+    <link>https://quartz.jzhao.xyz/Components/Icons</link>
+    <guid>https://quartz.jzhao.xyz/Components/Icons</guid>
     <description>The icons that Faaviator uses are from an open-source and versatile icon pack called Iconoir Use CustomIconView(.iconoir(.icon), size: size, color: .color) CustomIconView(.system(.icon), ...</description>
     <pubDate>Wed, 07 Aug 2024 20:27:59 GMT</pubDate>
   </item><item>
-    <title>Welcome to FAAVIATOR Design System</title>
-    <link>https://quartz.jzhao.xyz/Welcome-to-FAAVIATOR-Design-System</link>
-    <guid>https://quartz.jzhao.xyz/Welcome-to-FAAVIATOR-Design-System</guid>
-    <description>This is where all components, design conventions, and assets are documented. For the first version of this doc, I want to document out purely the SwiftUI components/styles Table of Contents.</description>
-    <pubDate>Wed, 07 Aug 2024 20:27:59 GMT</pubDate>
-  </item><item>
     <title>Button</title>
-    <link>https://quartz.jzhao.xyz/Buttons/Button</link>
-    <guid>https://quartz.jzhao.xyz/Buttons/Button</guid>
+    <link>https://quartz.jzhao.xyz/Components/Buttons/Button</link>
+    <guid>https://quartz.jzhao.xyz/Components/Buttons/Button</guid>
     <description>Interactive backbone element of any application. Used for navigation, actions, and confirmations. Version 1 Notice This documentation is non-exaustive and a work-in-progress Overview Use This is how to use the Button SwiftUI use SwiftComponent(_:) to Initialize the component //SwiftUI Usage Properties of SwiftComponent(_:) PropertiesTypeDefaultDescriptionColorColor.blue600This is the color of the icon.</description>
     <pubDate>Wed, 07 Aug 2024 20:27:59 GMT</pubDate>
   </item>

@@ -1,7 +1,7 @@
 The icons that Faaviator uses are from an open-source and versatile icon pack called [Iconoir](https://Iconoir.com)
 # Use
 ---
-```Swift
+```swift
 CustomIconView(.iconoir(.icon), size: size, color: .color)
 CustomIconView(.system(.icon), size: size, color: .color)
 ```
@@ -9,7 +9,7 @@ Accepts both `.iconoir()` and the default `.system()` (apple icons)`
 
 #### Use the `CustomIcon` in 
 #### Use the `CustomIconView` alone
-```Swift
+```swift title="Swift"
 import SwiftUI  
 import Iconoir
 
@@ -42,7 +42,7 @@ First we need to install the Iconoir Swift Package to the project.
 ![[Screenshot 2024-08-07 at 9.57.41 AM 1.png]]
 
 #### Our custom enum and view
-``` Swift
+``` swift title="Swift"
 import Foundation
 import SwiftUI
 import Iconoir

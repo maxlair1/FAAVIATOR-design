@@ -1,9 +1,10 @@
 ---
 title: Button
 draft: false
-tags: 
-version: 1
-cover: '"../img/Button_cover.png"'
+tags:
+  - React
+  - SwiftUI
+  - Component
 ---
  **Interactive backbone element of any application. Used for navigation, actions, and confirmations.**
  
@@ -13,7 +14,7 @@ cover: '"../img/Button_cover.png"'
 > This documentation is non-exaustive and a work-in-progress
 # Overview
 ---
-
+![[content/img/Button_cover.png]]
 # Use
 ---
 This is how to use the Button

@@ -1,5 +1,7 @@
+import { emit } from "process"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { SyntaxHighlighting } from "./quartz/plugins"
 
 /**
  * Quartz 4.0 Configuration
@@ -22,32 +24,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Inter",
+        header: "sInter",
         body: "Inter",
         code: "Roboto Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
+          light: "#fefefe",
+          lightgray: "#eeeeee",
+          gray: "#b5b5b5",
+          darkgray: "#595959",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          secondary: "#006EF1",
+          tertiary: "#f6a328",
+          highlight: "#e0f0ff",
+          textHighlight: "#ff5d5d",
         },
         darkMode: {
-          light: "#161618",
+          light: "#1c1c1c",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
+          secondary: "#3197FF",
           tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          highlight: "#15253D",
+          textHighlight: "#15253D",
         },
       },
     },
@@ -71,6 +73,8 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.SyntaxHighlighting(),
+      Plugin.TableOfContents(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

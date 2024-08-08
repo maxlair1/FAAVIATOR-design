@@ -1,3 +1,3 @@
-# This is a test
+This is the index.md.
 
-haha!
+Hello world!
