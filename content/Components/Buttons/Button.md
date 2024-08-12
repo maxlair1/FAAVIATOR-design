@@ -34,15 +34,12 @@ Use `RoundedButtonStyle()` as a property inside of a [`.buttonStyle`](https://de
 		// action
 	}.buttonStyle(RoundedButtonStyle())
 ```
-
-Parameters of Properties of `SwiftComponent(_:)`
-
 ### Parameters
 
 | Parameter    | Arg type                      | Options                                                      | Default    | Description                                                       |
 | ------------ | ----------------------------- | ------------------------------------------------------------ | ---------- | ----------------------------------------------------------------- |
 | `buttonType` | [`ButtonType`](#`ButtonType`) | `.primary`<br>`.secondary`<br>`.tertiary`<br>`.negative`<br> | `.primary` | This is the color of the icon.                                    |
-| `fullWidth`  | Bool                          | `true` or  `false`                                           | `true`     | Determines if the button will fill all available horizontal space |
+| `fillWidth`  | Bool                          | `true` or  `false`                                           | `true`     | Determines if the button will fill all available horizontal space |
 | `Size`       | [`Size`](#`Size`)             | `.small`<br>`.medium`<br>`.large`                            | `.medium`  | Determines the size of the button                                 |
 
 ### Modifiers

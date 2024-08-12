@@ -1,4 +1,10 @@
-The icons that Faaviator uses are from an open-source and versatile icon pack called [Iconoir](https://Iconoir.com)
+# Overview
+---
+~~The icons that Faaviator uses are from an open-source and versatile icon pack called [Iconoir](https://Iconoir.com)~~
+
+> [!Danger] This View is depreciated
+>   Iconoir icons are not supported at this time. Use [SF Symbols](https://developer.apple.com/sf-symbols/).
+
 # Use
 ---
 ```swift
@@ -7,7 +13,10 @@ CustomIconView(.system(.icon), size: size, color: .color)
 ```
 Accepts both `.iconoir()` and the default `.system()` (apple icons)`
 
-#### Use the `CustomIcon` in 
+#### Use the `CustomIcon` in a [[content/Components/Buttons/ActionButton|ActionButton]] or [[content/Components/Buttons/Circular Button|Circular Button]]
+```
+//icon use in Action button now
+```
 #### Use the `CustomIconView` alone
 ```swift title="Swift"
 import SwiftUI  
@@ -84,4 +93,4 @@ struct CustomIconView: View {
 Browse the catalog of icons at [Iconoir.com](https://iconoir.com)
 View the Figma components below
 #### Figma
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FYdYApHlAjaKaJwv7ogVBoy%2FFaaviator-Design-System-(v1)%3Fnode-id%3D2738-17578%26t%3D0VKIEGrXKtwZoEbE-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FYdYApHlAjaKaJwv7ogVBoy%2FFaaviator-Design-System-(v1)%3Fnode-id%3D2738-17578%26t%3D0VKIEGrXKtwZoEbE-1" allowfullscreen></iframe>

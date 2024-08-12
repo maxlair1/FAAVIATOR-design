@@ -4,19 +4,14 @@ draft:
 tags:
   - component
 ---
-
 > [!example] &nbsp;&nbsp;Version 1
 
 > [!warning] This documentation is non-exaustive and a work-in-progress
 
 # Overview
-
-**This is the standard format for a new component when documented. Put the component initial description in place of this paragraph.**
-
 ---
 
-![[content/img/Button_cover.png]]
-
+**This is the standard format for a new component when documented. Put the component initial description in place of this paragraph.**
 # Use
 
 ---
@@ -45,7 +40,7 @@ Parameters of Properties of `SwiftComponent(_:)`
 | -------- | ------ | ----------- |
 |          |        |             |
 
-## React
+%% ## React
 
 Use `<ReactComponent />` to Initialize the component
 
@@ -58,9 +53,8 @@ Properties of `SwiftComponent(_:)`
 | Properties | Type    | Default    | Description                    |
 | ---------- | ------- | ---------- | ------------------------------ |
 | `Color`    | `Color` | `.blue600` | This is the color of the icon. |
-
-# Install
-
+ %%
+# Definition
 ---
 
 %% # Figma
