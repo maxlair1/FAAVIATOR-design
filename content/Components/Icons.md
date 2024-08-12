@@ -9,14 +9,9 @@
 ---
 ```swift
 CustomIconView(.iconoir(.icon), size: size, color: .color)
-CustomIconView(.system(.icon), size: size, color: .color)
+CustomIconView(.system("icon"), size: size, color: .color)
 ```
-Accepts both `.iconoir()` and the default `.system()` (apple icons)`
-
-#### Use the `CustomIcon` in a [[content/Components/Buttons/ActionButton|ActionButton]] or [[content/Components/Buttons/Circular Button|Circular Button]]
-```
-//icon use in Action button now
-```
+Accepts both `.iconoir()` and the default `.system()` (SF Symbols)`
 #### Use the `CustomIconView` alone
 ```swift title="Swift"
 import SwiftUI  

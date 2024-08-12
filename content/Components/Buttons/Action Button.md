@@ -41,7 +41,7 @@ Parameters of Properties of `SwiftComponent(_:)`
 | `buttonType`   | `ButtonType`   | `.primary`<br>`.secondary`<br>`.negative`<br>                                                                                     | `.primary` | This is the color of the icon.                                                                   |
 | `fullWidth`    | Bool           | `true` or  `false`                                                                                                                | `true`     | Determines if the button will fill all available horizontal space                                |
 | `icon`         | String         | [SF Symbols](https://developer.apple.com/sf-symbols/)<br>[Iconoir Icons(*DEPRECEIATED*)](https://developer.apple.com/sf-symbols/) | `nil`      | Determines what Icon will be rendered<br><br>> [!Warning] Only accepts SF symbols the time being |
-| `iconPosition` | `IconPosition` | `.leading`<br>`.tracking`                                                                                                         | `.leading` | Is the icon rendered before or after the label                                                   |
+| `iconPosition` | `IconPosition` | `.leading`<br>`.trailing`                                                                                                         | `.leading` | Is the icon rendered before or after the label                                                   |
 
 ### Modifiers
 
