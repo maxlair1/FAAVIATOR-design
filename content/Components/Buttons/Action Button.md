@@ -27,7 +27,7 @@ tags:
 Use `ActionButtonStyle()` as a property inside of a [`.buttonStyle`](https://developer.apple.com/documentation/swiftui/buttonstyle) to Initialize the view.
 
 ```swift title="SwiftUI"
-Button("Test"){
+Button("Button Label"){
 	//action
 }.buttonStyle(ActionButtonStyle())
 ```
@@ -36,12 +36,12 @@ Parameters of Properties of `SwiftComponent(_:)`
 
 ### Parameters
 
-| Parameter      | Arg type       | Options                                                                                                                           | Default    | Description                                                                                      |
-| -------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------ |
-| `buttonType`   | `ButtonType`   | `.primary`<br>`.secondary`<br>`.negative`<br>                                                                                     | `.primary` | This is the color of the icon.                                                                   |
-| `fullWidth`    | Bool           | `true` or  `false`                                                                                                                | `true`     | Determines if the button will fill all available horizontal space                                |
-| `icon`         | String         | [SF Symbols](https://developer.apple.com/sf-symbols/)<br>[Iconoir Icons(*DEPRECEIATED*)](https://developer.apple.com/sf-symbols/) | `nil`      | Determines what Icon will be rendered<br><br>> [!Warning] Only accepts SF symbols the time being |
-| `iconPosition` | `IconPosition` | `.leading`<br>`.trailing`                                                                                                         | `.leading` | Is the icon rendered before or after the label                                                   |
+| Parameter      | Arg type       | Options                                                                                                               | Default    | Description                                                       |
+| -------------- | -------------- | --------------------------------------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------- |
+| `buttonType`   | `ButtonType`   | `.primary`<br>`.secondary`<br>`.negative`<br>                                                                         | `.primary` | This is the color of the icon.                                    |
+| `fullWidth`    | Bool           | `true` or  `false`                                                                                                    | `true`     | Determines if the button will fill all available horizontal space |
+| `icon`         | String         | [SF Symbols](https://developer.apple.com/sf-symbols/)<br>[~~Iconoir Icons~~](https://developer.apple.com/sf-symbols/) | `nil`      | Determines what Icon will be rendered                             |
+| `iconPosition` | `IconPosition` | `.leading`<br>`.trailing`                                                                                             | `.leading` | Is the icon rendered before or after the label                    |
 
 ### Modifiers
 

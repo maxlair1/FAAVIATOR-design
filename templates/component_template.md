@@ -15,9 +15,6 @@ tags:
 # Use
 
 ---
-
-This is how to use the component
-
 ## SwiftUI
 
 use `SwiftComponent(_:)` to Initialize the component
