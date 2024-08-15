@@ -23,13 +23,13 @@ use the modifier `.BottomSheetView` on a [`ZStack`](https://developer.apple.com/
 ```swift title="SwiftUI"
 @State private var showBottomSheet = false
 var body: some View {
-            ZStack {
-                // rest of screen content, and element that triggers 'showBottomSheet'
-            }
-            .BottomSheetView(isPresented: $showBottomSheet, title: "Title") {
-                // sheet content
-            }
-        }
+	ZStack {
+		// rest of screen content, and element that triggers 'showBottomSheet'
+	}
+	.BottomSheetView(isPresented: $showBottomSheet, title: "Title") {
+		// sheet content
+	}
+}
 ```
 
 - The bottom sheet utilizes [`.scrollOnOverflow()`](scrollOnOverflow()) utility to prevent inner content from scrolling if it's height does not overflow container.
