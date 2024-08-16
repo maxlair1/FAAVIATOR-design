@@ -19,7 +19,7 @@ tags:
 
 use `.SwitchStyle()` on a `Toggle()` component to apply the styling.
 
-```swift title="SwiftUI"
+```swift
 Toggle("", isOn: $isOn)
 	.SwitchStyle()
 ```

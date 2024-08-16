@@ -19,7 +19,7 @@ tags:
 
 use `SwiftComponent(_:)` to Initialize the component
 
-```swift title="SwiftUI"
+```swift
 //SwiftUI Usage
 ```
 

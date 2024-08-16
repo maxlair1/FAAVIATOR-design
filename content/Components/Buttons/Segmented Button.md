@@ -28,10 +28,10 @@ CustomSegmentedControl(selection: $selectedSegment, options: options)
 
 ### Parameters
 
-| Parameter   | Argument type   | Default | Description                                                                        |
-| ----------- | --------------- | ------- | ---------------------------------------------------------------------------------- |
-| `options`   | Array \[String] | `nil`   | The array of strings that are both the options, and labels for the icons           |
-| `selection` | `@State`        | `0`     | Which segment is selected represented by numbers starting with zero. Returns `int` |
+| Parameter   | Argument type  | Default | Description                                                                        |
+| ----------- | -------------- | ------- | ---------------------------------------------------------------------------------- |
+| `options`   | Array\<String> | `nil`   | The array of strings that are both the options, and labels for the icons           |
+| `selection` | `@State`       | `0`     | Which segment is selected represented by numbers starting with zero. Returns `int` |
 %%
 ### Modifiers
 
