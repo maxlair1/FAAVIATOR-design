@@ -1,8 +1,8 @@
 ---
 title: <% tp.file.title %>
-draft:
+draft: 
 tags:
-  - component
+  - Component
 ---
 > [!example] &nbsp;&nbsp;Version 1
 
