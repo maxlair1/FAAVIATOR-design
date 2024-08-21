@@ -1,8 +1,9 @@
 ---
 title: Bottom Sheet
-draft:
+draft: 
 tags:
-  - component
+  - Component
+  - Popup
 ---
 > [!example] &nbsp;&nbsp;Version 1
 

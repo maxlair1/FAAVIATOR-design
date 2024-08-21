@@ -1,8 +1,8 @@
 ---
-title: Snackbar
+title: Loading Bar
 draft: 
 tags:
-  - ComingSoon
+  - Component
 ---
 > [!Danger] Component not yet created or documented.
 > We are working on getting this component documented for use.

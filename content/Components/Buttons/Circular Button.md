@@ -11,12 +11,16 @@ tags:
 # Overview
 ---
 
-**A circular button lets the user perform an action with a tap or a click.# Use**
+**A circular button lets the user perform an action with a tap or a click.  Also can be used in a row with descriptive labels, when the high-level interactions on a page are all equalIy important.
+
+Most commonly used as the navigation [[content/Components/iOS UI/Back Button|Back Button]], or the close button/interaction on a [[content/Components/Popups/Bottom Sheet|Bottom Sheet]].**
+
+# Use
 
 ---
 ## SwiftUI
 
-use the modifier `.circularButtonStyle()` to Initialize the component.
+use the modifier `.circularButtonStyle()` to Initialize the component. This button does not use the [buttonStyle](https://developer.apple.com/documentation/swiftui/buttonstyle) modifier because it is not a restyle, instead it is a custom component.
 
 ```swift title="SwiftUI"
 Button(action: {

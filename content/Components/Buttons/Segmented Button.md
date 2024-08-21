@@ -10,7 +10,7 @@ tags:
 
 # Overview
 ---
-**Used when two buttons function as tabs, and related in action**.
+**Used when two buttons function as tabs, and are related in action**.
 # Use
 
 ---
