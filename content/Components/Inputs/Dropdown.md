@@ -88,66 +88,65 @@ Properties of `SwiftComponent(_:)`
 # Definition
 ---
 ```swift title="DropdownInput.swift"
-//
-//  InputField.swift
-//  Faaviator
-//
-//  Created by Max Lair on 8/6/24.
-//
 
-//import Foundation
-//import SwiftUI
-//
-//public struct InputField: View {
-//    @Binding var text: String
-//    var placeholder: String
-//    
-//    public var body: some View {
-//        TextField(placeholder, text: $text)
-//            .customTextFieldStyle()
-//    }
-//}
-
-//struct ContentView: View {
-//    @State private var username: String = ""
-//    @State private var email: String = ""
-//    
-//    var body: some View {
-//        VStack {
-//            InputField(text: $username, placeholder: "Username")
-//            InputField(text: $email, placeholder: "Email")
-//        }
-//    }
-//}
-
+import Foundation
 import SwiftUI
-struct CustomTextField: View {
-    let label: String
+
+//MARK: Dropdown Field (Input/button)
+struct DropdownField: View {
+    @Binding var selectedOption: String
+    @State private var showBottomSheet = false
+    var label: String
+    var desc: String
     let placeholder: String
-    @Binding var text: String
-    @State private var isFocused: Bool = false
+    let options: [String]
+    let action: (() -> Void)
+
+    init(placeholder: String = "Select", options: [String], label: String = "", desc: String = "", selectedOption: Binding<String>, action: @escaping (() -> Void)) {
+        self.options = options
+        self.label = label
+        self.desc = desc
+        self.placeholder = placeholder
+        self._selectedOption = selectedOption
+        self.action = action
+    }
+
     var body: some View {
-        VStack {
-            VStack(alignment: .leading, spacing: 4) {
-                Text(label)
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
-                ZStack(alignment: .leading) {
-                    RoundedRectangle(cornerRadius: 8)
-                        .stroke(isFocused ? Color.blue : Color.gray.opacity(0.5), lineWidth: 1)
-                    if text.isEmpty {
-                        Text(placeholder)
-                            .foregroundColor(.gray)
-                            .padding(.horizontal, 8)
-                    }
-                    TextField("", text: $text, onEditingChanged: { editing in
-                        isFocused = editing
-                    })
-                    .padding(8)
+        ZStack {
+            VStack(alignment: .leading, spacing: 8) {
+                if !label.isEmpty {
+                    Text(label)
+                        .font(.interInputLabel)
+                        .foregroundStyle(Color.TextPrimary)
                 }
-                .frame(height: 40)
+                
+                if !desc.isEmpty {
+                    Text(desc)
+                        .font(.interInputLabel)
+                        .foregroundStyle(Color.TextTertiary)
+                }
+                
+                Button(action: {
+                    action()
+                }) {
+                    HStack {
+                        Text(selectedOption.isEmpty ? placeholder : selectedOption)
+                            .foregroundColor(selectedOption.isEmpty ? .TextTertiary : .TextPrimary)
+                        
+                        Spacer()
+                        
+                        Image(systemName: "chevron.down")
+                            .foregroundColor(.blue)
+                            .rotationEffect(Angle(degrees: showBottomSheet ? 180 : 0))
+                    }
+                    .font(.interInputType)
+                    .padding()
+                    .background(
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(Color.gray, lineWidth: 1)
+                    )
+                }
             }
-            .padding(.vertical, 4)
         }
     }
 }
