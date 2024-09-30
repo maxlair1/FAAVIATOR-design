@@ -14,7 +14,7 @@ tags:
 ---
 **Our colors represent first-responders, public safety, and aviation. One of the most visually expressive parts of a brand identity, and particularly a user interface.**
 
-![[Colors_cover.png]]
+![[public/img/Colors_cover.png]]
 # Use
 ---
 ## SwiftUI

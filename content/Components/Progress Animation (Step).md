@@ -1,5 +1,5 @@
 ---
-title: Progress Animation (Spinner)
+title: Progress Animation (Step)
 draft: 
 tags:
   - ComingSoon

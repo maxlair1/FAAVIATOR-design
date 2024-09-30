@@ -8,6 +8,11 @@ tags:
 
 > [!warning] This documentation is non-exaustive and a work-in-progress
 
+>[!Danger] I realize now that this might be overly complicated... 
+>- Its possible to just use as many different bottom sheets, etc. as you need instead of worrying about changing the content. 
+>- The main reason I wanted to create this component is to declare the **background color of the entire app**, which iOS does not provide a way to do.
+>- I also wanted to enforce a standard for navigation header components , such as the back button.
+>- If we can find a way to do all of that without using this component we can do away with it...
 # Overview
 ---
 **The main wrapper component which automatically accepts every Faaviator component**

@@ -10,14 +10,15 @@ tags:
 
 > [!warning] This documentation is non-exaustive and a work-in-progress
 
+![[Button_cover.png]]
 # Overview
 
 ---
 
 **Interactive backbone element of any application. Used in navigation, actions, and confirmations.**
 
-- This button is used when users need to respond to an action or move to the next set of steps in a sequence. If you want a button that is meant to initiate an action or alter a user's view, use the [[ActionButton]].
-- This button does not support icons. If your interaction **requires** an icon, consider using the [[ActionButton]] or [[Circular Button]].
+- This button is used when users need to respond to an action or move to the next set of steps in a sequence. If you want a button that is meant to initiate an action or alter a user's view, use the [[Components/Buttons/Action Button|Action Button]]
+- This button does not support icons. If your interaction **requires** an icon, consider using the [[Action Button]] or [[Circular Button]].
 
 # Use
 

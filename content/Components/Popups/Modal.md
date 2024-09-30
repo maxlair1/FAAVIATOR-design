@@ -38,7 +38,7 @@ YourView
 ---
 Both the Modal and the [[content/Components/Popups/Snackbar|Snackbar]] components rely on an external CocoaPods package called [PopupView](https://github.com/exyte/PopupView). Make sure this package is added to your local project.
 
-![[content/img/dependency_popup.png]]
+![[content/dependency_popup.png]]
 
 %%
 ### Modifiers

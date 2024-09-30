@@ -4,16 +4,17 @@ draft:
 tags:
   - component
 ---
-> [!example] &nbsp;&nbsp;Version 1
+> [!example] &nbsp;&nbsp;Version 1.1
+> - 9/26 Added `.negative` button type
 
 > [!warning] This documentation is non-exaustive and a work-in-progress
 
 # Overview
 ---
 
-**A circular button lets the user perform an action with a tap or a click.  Also can be used in a row with descriptive labels, when the high-level interactions on a page are all equalIy important.
+**A circular button lets the user perform an action with a tap or a click.  Also can be used in a row with descriptive labels, when the high-level interactions on a page are all equally important.
 
-Most commonly used as the navigation [[content/Components/iOS UI/Back Button|Back Button]], or the close button/interaction on a [[content/Components/Popups/Bottom Sheet|Bottom Sheet]].**
+Most commonly used as the navigation [[Components/iOS UI/Back Button|Back Button]], or the close button/interaction on a [[Components/Popups/Bottom Sheet|Bottom Sheet]].**
 
 # Use
 
@@ -35,7 +36,7 @@ Button(action: {
 | Parameter | Argument type                                         | Default            | Description                                                                              |
 | --------- | ----------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------- |
 | `Icon`    | Image                                                 | None, **Required** | The SF Symbol rendered in the button. This is a required parameter.                      |
-| `Color`   | `.primary`,<br>`.secondary`                           | `.primary`         | The color/hierarchy of the button.                                                       |
+| `Color`   | `.primary`,<br>`.secondary`,<br>`.negative`           | `.primary`         | The color/hierarchy of the button.                                                       |
 | `Size`    | `.small`,<br>`.medium`,<br>`.large`,<br>`.extraLarge` | `.medium`          | The size of the entire button. The `label` and `Icon` both scale with this size as well. |
 | `label`   | String                                                | `nil`              | The text displayed underneath the button if required. Disabled by default.               |
 

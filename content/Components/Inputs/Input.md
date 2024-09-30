@@ -4,7 +4,7 @@ draft:
 tags:
   - Component
 ---
-> [!example] &nbsp;&nbsp;Version 1
+ > [!example] &nbsp;&nbsp;Version 1
 
 > [!warning] This documentation is non-exaustive and a work-in-progress
 
