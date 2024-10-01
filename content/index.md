@@ -31,6 +31,7 @@ Welcome to the FAAVIATOR Design. The official design system of [FAAVIATOR](https
 	3. iOS UI
 		1. ~~[[Back Button]]~~
 		2. [[Components/iOS UI/Screen|Screen]]
+		3. [[Loading Animation]]
 	4. Popups (Sheets & Modals)
 		1. [[Bottom Sheet]]
 		2. [[Modal]]
@@ -41,15 +42,14 @@ Welcome to the FAAVIATOR Design. The official design system of [FAAVIATOR](https
 	7. [[Checkbox]]
 	8. [[Chips]]
 	9. [[Icons]] ==(Depreciated)==
-	10. [[Loading Bar]]
+	10. ~~[[Loading Bar]]~~
 	11. [[Navigation Item]]
-	12. [[Nudge]]
-	13. ~~[[Progress Animation (Step)]]~~
-	14. [[Progress Bar]]
-	15. [[Radio]]
-	16. [[Summary]]
-	17. [[Switch]]
-	18. [[Tabs]]
+	12. ~~[[Nudge]]~~
+	13. [[Progress Bar]]
+	14. [[Radio]]
+	15. [[Summary]]
+	16. [[Switch]]
+	17. [[Tabs]]
 4. Swift Utilities
 	1. [[scrollOnOverflow()]]
 
